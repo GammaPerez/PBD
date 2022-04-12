@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="formpost.php" method="post">
-        Nombre: <input type="text" name="nombre"><br>
-        Email: <input type="text" name="email"><br>
+    <form action="conexion.php" method="post">
+        Usuario: <input type="text" name="user"><br>
+        Contraseña: <input tupe="password" name="pass"><br>
         <input type="submit" value="Enviar">
+        
     </form>
 </body>
 </html>
